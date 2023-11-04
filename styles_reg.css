@@ -1,0 +1,145 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    background: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Main container styles */
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Sign-in section styles */
+.sign-in {
+    background: #fff;
+    width: 100%;
+    max-width: 600px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: row;
+}
+
+/* Sign-in image styles */
+.signin-image {
+    flex: 1;
+    text-align: center;
+}
+
+.signin-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Sign-in form styles */
+.signin-form {
+    flex: 2;
+    padding: 20px;
+}
+
+.form-title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.form-group label {
+    font-size: 18px;
+    color: #333;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.2s ease;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+.form-group input:focus + label,
+.form-group input:valid + label {
+    font-size: 14px;
+    top: -15px;
+    color: #3498db;
+}
+
+.form-group input[type="checkbox"] {
+    margin: 0 10px 0 0;
+    width: auto;
+    display: inline-block;
+}
+
+.label-agree-term {
+    font-size: 14px;
+    color: #333;
+    display: inline-block;
+    margin: 0;
+}
+
+.form-button .form-submit {
+    background: #3498db;
+    border: none;
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.form-button .form-submit:hover {
+    background: #2e86de;
+}
+
+/* Social login styles */
+.social-login {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-label {
+    font-size: 16px;
+    color: #333;
+}
+
+.socials {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.socials li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.socials i {
+    font-size: 32px;
+    color: #3498db;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.socials i:hover {
+    color: #2e86de;
+}

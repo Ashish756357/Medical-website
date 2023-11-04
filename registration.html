@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" type="text/css" href="styles_reg.css">
+</head>
+<body>
+    <div class="main">
+        <section class="sign-in">
+            <div class="signin-image">
+                <figure>
+                    <img src="regis" alt="signup image">
+                </figure>
+            </div>
+            <div class="signin-form">
+                <h2 class="form-title">Register</h2>
+                <form method="post" action="" class="register-form">
+                    <div class="form-group">
+                        <label for="username"><i class="zmdi zmdi-account material-icons-name"></i> Username:</label>
+                        <input type="text" name="username" id="username" placeholder="Your Name" />
+                    </div>
+                    <div class="form-group">
+                        <label for="email"><i class="zmdi zmdi-email"></i> Email:</label>
+                        <input type="email" name="email" id="email" placeholder="Your Email" />
+                    </div>
+                    <div class="form-group">
+                        <label for="password"><i class="zmdi zmdi-lock"></i> Password:</label>
+                        <input type="password" name="password" id="password" placeholder="Password" />
+                    </div>
+                    <div class="form-group">
+                        <label for="confirmPassword"><i class="zmdi zmdi-lock-outline"></i> Confirm Password:</label>
+                        <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm Password" />
+                    </div>
+                    <div class="form-group form-button">
+                        <button type="submit" name="register" class="form-submit">Register</button>
+                    </div>
+                </form>
+                <div class="social-login">
+                    <span class="social-label">Or register with</span>
+                    <ul class="socials">
+                        <li><a href="#"><i class="display-flex-center zmdi zmdi-facebook"></i></a></li>
+                        <li><a href="#"><i class="display-flex-center zmdi zmdi-twitter"></i></a></li>
+                        <li><a href="#"><i class="display-flex-center zmdi zmdi-google"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
